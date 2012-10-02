@@ -1,4 +1,11 @@
-# Puppet gpgme for Boxen
+# GPGme Puppet Module for Boxen
 
-FIXME: update me bro
+Requires the following boxen modules:
 
+* `boxen`
+
+## Usage
+
+```puppet
+include gpgme
+```
