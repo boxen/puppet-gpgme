@@ -1,8 +1,6 @@
 # GPGme Puppet Module for Boxen
 
-Requires the following boxen modules:
-
-* `boxen`
+Install [GPGme](http://www.gnupg.org/related_software/gpgme), a crypto API.
 
 ## Usage
 
@@ -10,8 +8,11 @@ Requires the following boxen modules:
 include gpgme
 ```
 
-## Developing
+## Required Puppet Modules
 
-Write code.
+* `boxen`
 
-Run `script/cibuild`.
+## Development
+
+Write code. Run `script/cibuild` to test it. Check the `script`
+directory for other useful tools.
